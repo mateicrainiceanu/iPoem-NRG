@@ -1,0 +1,210 @@
+  /* navbar */
+  #Nav {
+    min-height: 3.5rem;
+    background-image: linear-gradient( rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0));
+  }
+  #Nav .navbar-toggler {
+    font-size: 80%;
+    padding: 0.75rem;
+    color: #64a19d;
+    border: 1px solid #64a19d;
+  }
+  #Nav .navbar-toggler:focus {
+    outline: none;
+  }
+  #Nav .navbar-brand {
+    color: #fff;
+    font-weight: 700;
+    padding: 0.9rem 0;
+  }
+ #Nav .navbar-nav .nav-item .nav-link {
+    color:#fff
+ }
+  #Nav .navbar-nav .nav-item:hover {
+    color: fade(#fff, 80%);
+    outline: none;
+    background-color: transparent;
+  }
+  #Nav .navbar-nav .nav-item:active, #Nav .navbar-nav .nav-item:focus {
+    outline: none;
+    background-color: transparent;
+  }
+  /* button */
+  .btn {
+    padding: 1.25rem 2rem;
+    font-family: "Varela Round";
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    border-style: solid;
+    border-color: rgb(34	37	41	);
+    border-width: 0.2rem;
+    margin: 2%
+  }
+
+  .btn:hover{
+    color:#fff;
+    background-color: transparent;
+    border-style: solid;
+    border-color: rgb(34	37	41	);
+    border-width: 0.2rem;
+  }
+
+  .bi{
+    font-size: 2rem;
+    margin:0;
+    padding: 0;
+  }
+
+  /* main */
+  .main {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/Fotor_AI.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  .main h1 {
+    font-family: "Varela Round";
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.8rem;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+            background-clip: text;
+  }
+  .main h3{
+    max-width: 60rem;
+    font-size: 1.5rem;
+  }
+  @media (min-width: 768px) {
+    .main h1{
+      font-size: 4rem;
+      line-height: 4rem;
+    }
+  }
+  @media (min-width: 992px) {
+    .main {
+      height: 100vh;
+      padding: 0;
+    }
+    .main h1 {
+      font-size: 6.5rem;
+      line-height: 6.5rem;
+      letter-spacing: 0.8rem;
+    }
+    .main h3{
+      max-width: 40rem;
+      font-size: 1.25rem;
+    }
+  }
+  /* about */
+  .about {
+    padding-top: 10rem;
+    background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  }
+  .about p {
+    margin-bottom: 5rem;
+  }
+  .text-center {
+    text-align: center !important;
+  }
+  .justify-content-center {
+    justify-content: center !important;
+  }
+  /* form */
+  .generate {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/Fotor_AI.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  .generate h3{
+    max-width: 60rem;
+    font-size: 1.5rem;
+  }
+  .description{
+    padding: 0 2%;
+  }
+  .generate-poem{
+    padding-bottom: 3rem;
+    background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  }
+  .generate-poem p {
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: left;
+  }
+  .InputStyle{
+    border-radius: 25px;
+    border: solid 1px white;
+   background: transparent;
+   width: 300px;
+      padding: 10px 20px;
+      color: #fff;
+  }
+  .language{
+    border-radius: 25px;
+    border: solid 1px white;
+   background: transparent;
+   width: 300px;
+      padding: 10px 20px;
+      color: #fff;
+  }
+  .or_text{
+    padding: 1rem 0;
+  }
+  .LabelStyle{
+    color: #fff;
+    font-weight: 700;
+    padding: 0.9rem 0;
+  }
+  .btn-form {
+    margin-top: 20px;
+    padding: 1.25rem 2rem;
+    font-family: "Varela Round";
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.797);
+    border-radius: 5rem;
+  }
+  /* footer */
+  .footer {
+    padding: 5rem 0;
+    color: rgba(255, 255, 255, 0.5) !important;
+  }
+  /* media things */
+  @media only screen and (max-width: 600px) {
+    .description{
+      padding-top: 1rem;
+    }
+    .main{
+      padding-bottom: 5rem;
+    }
+  }
+
+  
+.spinner{
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+}
+  
+.m-auto{
+  width: 100%;
+}
